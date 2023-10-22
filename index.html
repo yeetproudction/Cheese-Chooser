@@ -3,6 +3,7 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="In this website you vote on your favorite flavor of cheese">
  <link rel="stylesheet" href="index.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,7 +11,7 @@
  <title>Home</title>
 </head>
 <body>
- <div class="Title Cheader">Cheader Cheese</div>
+ <div class="Title Cheader">Cheddar Cheese</div>
  <div class="Title">Swiss Cheese</div>
  <div class="quadrant"></div>
  <nav class="navbar">
@@ -18,13 +19,21 @@
  </nav>
  <main>
   <div class="border"></div>
+  <div class="border Cheader"></div>
   <p class="about-swiss">
    
 Swiss cheese outshines cheddar in both taste and texture. Its rich, nutty flavor and iconic holes are a testament to its culinary excellence, symbolizing sophistication and tradition. In the realm of cheese, Swiss cheese stands as a paragon of greatness.
   </p>
+  <p class="about-cheader">
+    
+In the Cheese Republic, cheddar represents diversity and unity, celebrating unique flavors. Swiss cheese, with its precision, advocates for consistency and neutrality. It's your choice: the boldness of cheddar or the precision of Swiss, a tasty political decision for your taste buds.
+  </p>
   <label id="Swiss-Votes-Label" for="Swiss-Votes">Votes 0%</label>
   <progress id="Swiss-Votes" value="0" max="100"> 0% </progress>
   <button id="vote-swiss" type="button">vote</button>
+  <label id="Cheader-Votes-Label" for="Swiss-Votes">Votes 0%</label>
+  <progress id="Cheader-Votes" value="0" max="100"> 0% </progress>
+  <button id="vote-Cheader" type="button">vote</button>
  </main>
  <script src="index.js"></script>
 </body>
