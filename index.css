@@ -1,0 +1,150 @@
+:root {
+ --background-color: #E2703A;
+ --color-1: #9C3D54;
+ --color-2: #EEB76B;
+ font-family: 'Sometype Mono', monospace;
+}
+
+body {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ border: 0;
+ background-color: var(--background-color);
+}
+
+.Title {
+ position: absolute;
+ color: white;
+ letter-spacing: 5px;
+ font-size: 100px;
+ left: 5%;
+ top: 20%;
+ z-index: 2;
+}
+
+.quadrant {
+ position: absolute;
+ left: 0;
+ top: 0;
+ z-index: 1;
+ height: 100%;
+ width: 50%;
+ background-color: var(--color-2);
+}
+
+.navbar {
+ position: absolute;
+ top: 0%;
+ width: 100vw;
+ height: 10%;
+ background-color: var(--color-1);
+ z-index: 2;
+}
+
+.Home {
+ position: absolute;
+ top: 50%;
+ left: 5%;
+ transform: translateY(-50%) translateX(-95%);
+ font-size: 30px;
+ color: white;
+ letter-spacing: 1px;
+ transition: 200ms;
+}
+
+.Home:hover {
+ color: var(--color-2);
+}
+
+.about-swiss {
+ position: absolute;
+ left: 5%;
+ top: 45%;
+ font-size: 20px;
+ z-index: 3;
+ color: white;
+ margin-right: 60%;
+}
+
+.border {
+ position: absolute;
+ height: 3px;
+ width: 40%;
+ top: 40%;
+ left: 5%;
+ z-index: 3;
+ border-radius: 5px;
+ background-color: #9C3D54;
+}
+
+#Swiss-Votes {
+ position: absolute;
+ top: 70%;
+ left: 5%;
+ transform: translateY(-30%);
+ width: 35%;
+ height: 15px;
+ z-index: 3;
+ border: 0;
+ border-radius: 5px;
+ background-color: var(--color-2);
+ color: var(--color-1);
+}
+
+progress[value] {
+ /* Reset the default appearance */
+ -webkit-appearance: none;
+  appearance: none;
+
+}
+
+progress[value]::-webkit-progress-bar {
+ background-color: var(--color-1);
+ border-radius: 5px;
+ border: 0;
+}
+
+progress[value]::-webkit-progress-value {
+   background-color: #E2703A;
+   border-radius: 5px; 
+   background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+#Swiss-Votes-Label {
+ position: absolute;
+ top: 65%;
+ transform: translateY(-30%);
+ padding-top: 10px;
+ font-size: 1rem;
+ color: white;
+ z-index: 3;
+ left: 20%;
+}
+
+progress[value]::-webkit-progress-value::after {
+ content: '1%';
+ position: absolute;
+ right: 0;
+ top: -125%;
+}
+
+#vote-swiss {
+ position: absolute;
+ top: 80%;
+ left: 25%;
+ transform: translate(-75%, -20%);
+ background-color: #9C3D54;
+ height: 4%;
+ width: 10%;
+ z-index: 3;
+ border: 0;
+ border-radius: 5px;
+ color: white;
+ font-family: 'Sometype Mono', monospace;
+ font-size: 30px;
+}
+
+#vote-swiss:hover {
+ filter: brightness(1.3);
+}
