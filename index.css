@@ -18,7 +18,7 @@ body {
  position: absolute;
  color: white;
  letter-spacing: 5px;
- font-size: 100px;
+ font-size: 5vw;
  left: 5%;
  top: 20%;
  z-index: 2;
@@ -63,7 +63,7 @@ body {
  position: absolute;
  left: 5%;
  top: 45%;
- font-size: 20px;
+ font-size: 1vw;
  z-index: 3;
  color: white;
  margin-right: 60%;
@@ -118,7 +118,7 @@ progress[value]::-webkit-progress-value {
  top: 65%;
  transform: translateY(-30%);
  padding-top: 10px;
- font-size: 1rem;
+ font-size: 3.5vh;
  color: white;
  z-index: 3;
  left: 20%;
@@ -144,7 +144,7 @@ progress[value]::-webkit-progress-value::after {
  border-radius: 5px;
  color: white;
  font-family: 'Sometype Mono', monospace;
- font-size: 30px;
+ font-size: 3.5vh;
 }
 
 #vote-swiss:hover {
@@ -159,7 +159,7 @@ progress[value]::-webkit-progress-value::after {
 .about-cheader {
    position: absolute;
    top: 45%;
-   font-size: 20px;
+   font-size: 1vw;
    z-index: 3;
    color: white;
    margin-left: 55%;
@@ -180,6 +180,10 @@ progress[value]::-webkit-progress-value::after {
    color: var(--color-1);
 }
 
+.Swiss {
+   margin-right: 50%;
+}
+
 #vote-Cheader {
    position: absolute;
    top: 80%;
@@ -193,7 +197,7 @@ progress[value]::-webkit-progress-value::after {
    border-radius: 5px;
    color: white;
    font-family: 'Sometype Mono', monospace;
-   font-size: 30px;
+   font-size: 3.5vh;
 }
 
 #vote-Cheader:hover {
@@ -205,7 +209,7 @@ progress[value]::-webkit-progress-value::after {
    top: 65%;
    transform: translateY(-30%);
    padding-top: 10px;
-   font-size: 1rem;
+   font-size: 3.5vh;
    color: white;
    z-index: 3;
    left: 70%;
